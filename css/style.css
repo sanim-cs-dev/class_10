@@ -1,0 +1,375 @@
+/* //// common css starts ////  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.conteinar{
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.align_item{
+    align-items: center;
+}
+
+.text_align{
+    text-align: center;
+}
+
+body{
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.button{
+    padding: 20px 44px;
+    background-color: #cfc91d;
+    color: #0b1016;
+    border: none;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
+.heading h5{
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #02918c;
+}
+
+.heading p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    line-height: 41px;
+    padding-top: 10px;
+}
+
+.card{
+    width: 25%;
+    
+}
+
+.card h3{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    padding: 30px 0px;
+
+}
+
+.card p{
+    font-size: 11px;
+    color: #7e8287;
+    line-height: 21px;
+    
+}
+
+/* //// common css ends ////  */
+
+
+
+
+/* ///// navber start ///// */
+
+
+nav{
+    background-color: #02918c;
+}
+
+nav #logo{
+    width: 40%;
+    
+}
+
+
+
+nav #menu{
+    width: 60%;
+    text-align: right;
+    
+}
+
+nav #menu ul li{
+    display: inline-block;
+    
+
+}
+
+nav #menu a{
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 25px 25px;
+    display: block;
+}
+
+
+/* ///// navber ends ///// */
+
+
+
+
+
+
+/* banner 1 starts */
+
+#banner{
+    background-image: url(../images/banner_1.jpg);
+    height: 728px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+#banner .row{
+    height: 728px;
+   
+}
+
+.banner_body{
+    width: 100%;
+    text-align: center;
+}
+
+.banner_body h4{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.banner_body h1{
+    font-size: 68px;
+    font-weight: 800;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+}
+
+.banner_body p{
+    font-size: 18px;
+
+}
+
+.banner_body img{
+    padding: 50px 0;
+}
+
+
+/* banner 1 ends */
+
+
+
+
+
+
+/* about start */
+
+#about{
+    padding-top: 105px;
+    padding-bottom: 95px;
+}
+
+
+#about .heading p{
+    padding: 0 135px 85px;
+    
+}
+
+
+#about .heading strong{
+    font-size: 23px;
+}
+
+#about .card{
+    padding: 35px 60px 55px;
+    border-right: 1px solid #d9dbdb;
+    
+}
+
+#about .card:last-child{
+    border-right: none;
+}
+
+
+
+    
+
+/* about ends */
+
+
+
+
+/* service starts */
+
+#service{
+    background-image: url(../images/banner_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#service .heading{
+    width: 50%;
+    padding-bottom: 54px;
+    
+}
+
+#service .heading h5{
+    padding-top: 90px;
+}
+
+#service .heading p{
+    padding-right: 97px;
+    
+}
+
+#service .service_card{
+    width: 50%;
+    padding-bottom: 35px;
+}
+
+#service .card{
+    width: 50%;
+    margin-bottom: 50px;
+
+}
+
+#service .card p{
+    padding-right: 125px;
+}
+
+
+/* service ends */
+
+
+
+
+
+
+
+/* my work stars */
+
+#my_work .heading{
+    padding: 100px 300px ;
+}
+
+
+#my_work .post{
+    width: 25%;
+    position: relative;
+}
+
+#my_work .post img{
+    width: 100%;
+    display: block;
+    
+}
+
+#my_work .overlay{
+    background-color: rgba(2, 145, 139, 0.85);
+    color: #ffffff;
+    position: absolute;
+    inset: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 60px;
+    transform: scale(0);
+    transition: 0.5s;
+    
+
+}
+
+
+#my_work .overlay h4{
+    font-size: 16px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+
+#my_work .overlay p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+#my_work .post:hover .overlay{
+    transform: scale(1);
+    
+}
+
+
+/* my work ends */
+
+
+/* contact start */
+
+#contact .heading{
+    padding-top: 100px;
+    
+    padding-bottom: 70px;
+}
+
+#contact .heading p{
+    padding: 0 235px;
+}
+
+#contact .form{
+    background-color: #0a0a0b;
+}
+
+#contact .form input{
+    width: 100%;
+    background-color: #0a0a0b;
+    color: #616568;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    border: none;
+    font-size: 16px;
+    border-bottom: 1px solid #616568;
+
+    
+
+}
+
+#contact .form .name{
+    width: 70%;
+}
+
+#contact .form .button{
+    margin: 67px;
+}
+
+/* contact ends */
+
+
+
+footer p{
+    padding: 35px 0;
+    text-align: center;
+    background-color: #000000;
+    color: #7e8287;
+    font-size: 12px;
+}
